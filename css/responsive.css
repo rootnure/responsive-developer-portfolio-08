@@ -1,0 +1,15 @@
+/* responsive media query styles */
+
+/* mobile devices */
+.hide {
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    #what-i-do-description {
+        padding: 20px;
+    }
+
+    .skills-container {
+        flex-direction: column;
+    }
+}
