@@ -34,11 +34,6 @@
     textarea {
         width: 75%;
     }
-
-    .social-links {
-        display: flex;
-        justify-content: center;
-    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {}

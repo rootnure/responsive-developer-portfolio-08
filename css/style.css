@@ -223,8 +223,15 @@ footer {
     width: 50%;
 }
 
-.social-links a {
-    margin-right: 25px;
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.copyright {
+    margin-top: 35px;
+    text-align: center;
 }
 
 .contact input[type=text],
