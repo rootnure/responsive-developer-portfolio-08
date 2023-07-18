@@ -4,12 +4,41 @@
 .hide {
     display: none;
 }
+
 @media screen and (max-width: 576px) {
     #what-i-do-description {
         padding: 20px;
     }
 
-    .skills-container {
+    .skills-container,
+    .resume-container {
         flex-direction: column;
     }
+
+    .resume-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type=text],
+    .contact input[type=email],
+    textarea {
+        width: 75%;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+    }
 }
+
+@media screen and (min-width: 576px) and (max-width: 992px) {}
