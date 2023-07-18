@@ -42,7 +42,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .nav-title {
@@ -54,11 +55,13 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding-left: 0;
 }
 
 nav li {
     list-style: none;
-    margin-right: 50px;
 }
 
 nav a {
@@ -212,7 +215,7 @@ main section {
 /* footer styles here */
 footer {
     display: flex;
-    gap: 100px;
+    column-gap: 100px;
     background-color: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;

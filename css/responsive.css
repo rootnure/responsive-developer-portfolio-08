@@ -1,15 +1,36 @@
 /* responsive media query styles */
 
 /* mobile devices */
-.hide {
-    display: none;
-}
 
 @media screen and (max-width: 576px) {
+    .nav-title {
+        margin-bottom: 20px;
+    }
+    .header {
+        background-image: none;
+    }
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav>ul {
+        flex-direction: column;
+    }
+    .banner {
+        padding-left: 20px;
+    }
+    .banner .profile-picture {
+        width: 100%;
+    }
+    .banner-content {
+        margin-bottom: 35px;
+    }
+    .banner-content > button {
+        margin-top: 10px;
+    }
     main section {
         margin-top: 25px;
     }
-
     .about {
         padding: 20px;
     }
@@ -21,6 +42,8 @@
         padding: 20px;
     }
 
+    nav,
+    .banner,
     .skills-container,
     .resume-container {
         flex-direction: column;
@@ -34,6 +57,11 @@
     footer {
         flex-direction: column-reverse;
         padding: 20px;
+        margin-top: 35px;
+    }
+
+    .let-connect {
+        margin-top: 100px;
     }
 
     .footer-column {
@@ -47,4 +75,12 @@
     }
 }
 
-@media screen and (min-width: 576px) and (max-width: 992px) {}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+    
+    footer {
+        padding: 30px;
+    }
+}
