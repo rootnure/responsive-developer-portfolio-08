@@ -6,6 +6,17 @@
 }
 
 @media screen and (max-width: 576px) {
+    main section {
+        margin-top: 25px;
+    }
+
+    .about {
+        padding: 20px;
+    }
+    .about-info-container {
+        flex-wrap: wrap;
+        gap: 35px;
+    }
     #what-i-do-description {
         padding: 20px;
     }
